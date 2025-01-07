@@ -1,0 +1,106 @@
+/* font kits */
+
+.open-sans-body-font {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.nav-heading{
+    font-size: 45px;
+}
+.rr{
+    color: #FD6E0A;
+}
+.ankor{
+    display: flex;
+    gap: 50px;
+   align-items: center;
+    
+}
+.ankor >a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400px;
+}
+.btn{
+   width: 130px;
+    height:50px;
+    background-color: #FD6E0A;
+    border-radius: 7px;
+    font-weight: 20px;
+}
+.btn-font{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+img{
+    width: 100%;
+}
+.banner-content{
+}
+.banner-greting{
+    font-size:  45;
+    font-weight: 700px;
+}
+.banner-heding{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-btn1{
+    padding: 10px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: #FD6E0A;
+    margin-right:8px;
+}
+.banner-btn2{
+    padding: 8px;
+    border: solid 2px #FD6E0A;
+    border-radius: 5px;
+   
+}
+
+.about-heding{
+    font-size: 35px;
+    font-weight: bold;
+}
+main{
+    max-width: 1034px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 70px;
+    margin-top: 40px;
+}
+.about-section{
+    margin-top:30px;
+    text-align: center;
+    border: solid 2px black;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
